@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="juliano.random" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>隨機選擇器</name>
+    <description>Sample Apache Cordova App</description>
+    <author>
+        juliano
+    </author>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <preference name="SplashScreen" value="none" />
+  <preference name="AutoHideSplashScreen" value="true" />
+  <preference name="SplashScreenDelay" value="0"/>
+<preference name="windowSoftInputMode" value="adjustPan" />
+<preference name="FullScreen" value="true" />
+<preference name="AndroidWindowSplashScreenAnimatedIcon" value="res/icon/android/icon.png" />
+     <!-- 添加 Android 平台配置 -->
+    <platform name="android">
+        <icon density="ldpi" background="res/icon/android/background.xml" foreground="res/icon/android/icon.xml" monochrome="res/icon/android/icon.xml" src="res/icon/android/icon.png" />
+        <icon density="mdpi" background="res/icon/android/background.xml" foreground="res/icon/android/icon.xml" monochrome="res/icon/android/icon.xml" src="res/icon/android/icon.png" />
+        <icon density="hdpi" background="res/icon/android/background.xml" foreground="res/icon/android/icon.xml" monochrome="res/icon/android/icon.xml" src="res/icon/android/icon.png" />
+        <icon density="xhdpi" background="res/icon/android/background.xml" foreground="res/icon/android/icon.xml" monochrome="res/icon/android/icon.xml" src="res/icon/android/icon.png" />
+        <icon density="xxhdpi" background="res/icon/android/background.xml" foreground="res/icon/android/icon.xml" monochrome="res/icon/android/icon.xml" src="res/icon/android/icon.png" />
+        <icon density="xxxhdpi" background="res/icon/android/background.xml" foreground="res/icon/android/icon.xml" monochrome="res/icon/android/icon.xml" src="res/icon/android/icon.png" />
+
+    </platform>
+</widget>
