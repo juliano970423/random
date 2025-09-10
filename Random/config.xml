@@ -12,7 +12,6 @@
   <preference name="AutoHideSplashScreen" value="true" />
   <preference name="SplashScreenDelay" value="0"/>
 <preference name="windowSoftInputMode" value="adjustPan" />
-<preference name="FullScreen" value="true" />
 <preference name="AndroidWindowSplashScreenAnimatedIcon" value="res/icon/android/icon.png" />
      <!-- 添加 Android 平台配置 -->
     <platform name="android">
